@@ -17,6 +17,18 @@
     <!-- You can include additional meta tags, stylesheets, or scripts here -->
 </head>
   <body>
+    <div class="row pt-4">
+
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <a href="#" class="btn-primary hierba btn-s mb-3 download_contact"
+                    data-bs-toggle="modal"
+          data-bs-target="#export-contact-modal"
+        >Save</a>
+                <a href="#" class="btn-primary hierba btn-s mb-3 mx-3" data-bs-toggle="modal" data-bs-target="#modal-share">Share</a>
+                <a href="#" class="btn-primary hierba btn-s mb-3" data-bs-toggle="modal" data-bs-target="#QRModal">QR</a>
+            </div>
+
+        </div>
 <main role="main" class="main">
   <section>
       <div class="container-fluid">
@@ -174,6 +186,24 @@
   </section>
 
 </main>
+    <div class="modal fade" id="QRModal" tabindex="-1" role="dialog" aria-labelledby="QRLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content p-0">
+            <div class="modal-header d-block text-left py-3">
+                <h5>Krisztian Jakovcevic</h5>
+                <p class="mb-0">Founder/Lead Consultant/Developer  |  CodeWithaKay</p>
+            </div>
+            <div class="modal-body py-4 text-center">
+                <img class="d-block img-fluid mx-auto pb-3" src="https://www.know.ee/9a6gtOZBUU2.png">
+                <p class="mb-0">Show this QR code to quickly share this digital card.</p>
+            </div>
+            <div class="modal-footer mx-auto mb-3">
+                <button type="button" class="btn-primary" data-dismiss="modal" aria-label="Close">
+                  Close QR</button>
+            </div>
+        </div>
+    </div>
+</div>
     <div id="export-contact-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -265,9 +295,9 @@
   
           document.getElementById('resume_vcf_download').addEventListener('click', function() {
               const contactInfo = {
-                  fullName: 'John Doe',
-                  phoneNumber: '+1234567890',
-                  email: 'john.doe@example.com'
+                  fullName: 'Krisztian Jakovcevic',
+                  phoneNumber: '+447387997336',
+                  email: 'kris@codewithakay.dev'
               };
               downloadVCF(contactInfo);
           });
