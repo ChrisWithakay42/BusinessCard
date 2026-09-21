@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jakovcevic;Krisztian;;;
+FN:Krisztian Jakovcevic
+ORG:CodeWithaKay
+TITLE:Founder / Lead Consultant / Developer
+TEL;TYPE=CELL,VOICE:+447387997336
+EMAIL;TYPE=INTERNET,WORK:kris@codewithakay.com
+URL:https://codewithakay.dev
+ADR;TYPE=WORK:;;;London;;N10;United Kingdom
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/krisztian-j
+X-SOCIALPROFILE;TYPE=github:https://github.com/ChrisWithakay42
+X-SOCIALPROFILE;TYPE=gitlab:https://gitlab.com/codewithakay42
+NOTE:Digital card: https://chriswithakay42.github.io/BusinessCard/
+END:VCARD

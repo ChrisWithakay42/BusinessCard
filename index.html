@@ -1,24 +1,32 @@
-<html lang="en">
+<!doctype html>
+<html lang="en-GB">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Card</title>
-    
-    <!-- Linking to the external CSS file -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Krisztian Jakovcevic · CodeWithaKay</title>
+  <meta name="description" content="Krisztian Jakovcevic, Founder and Lead Consultant at CodeWithaKay. Save my contact details, or reach me by phone, email or WhatsApp.">
+  <meta name="theme-color" content="#1e88e5">
+  <link rel="canonical" href="https://chriswithakay42.github.io/BusinessCard/">
 
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Krisztian Jakovcevic · CodeWithaKay">
+  <meta property="og:description" content="Founder / Lead Consultant / Developer. Tap to save my contact details.">
+  <meta property="og:url" content="https://chriswithakay42.github.io/BusinessCard/">
+  <meta property="og:image" content="https://chriswithakay42.github.io/BusinessCard/9a6gtOZBUU2.png">
+  <meta name="twitter:card" content="summary_large_image">
 
-
-    <!-- You can include additional meta tags, stylesheets, or scripts here -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-512.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="card.css">
 </head>
-  <body>
-    <div class="row pt-4">
+<body>
+  <main class="card">
+    <header class="hero">
+      <img src="9a6gtOZBUU2.png" width="900" height="500" alt="Business card: Krisztian Jakovcevic, Founder / Lead Consultant / Developer, CodeWithaKay">
+    </header>
 
+<<<<<<< Updated upstream
             <div class="col-12 d-flex justify-content-center align-items-center">
                 <a href="#" class="btn-primary hierba btn-s mb-3 download_contact"
                     data-bs-toggle="modal"
@@ -303,4 +311,103 @@
           });
   </script>
   </body>
+=======
+    <div class="actions">
+      <a class="btn primary" href="kris.vcf" download="Krisztian Jakovcevic.vcf">
+        <svg><use href="icons.svg#i-download"/></svg> Save contact
+      </a>
+      <button class="btn" id="share" type="button" aria-label="Share this card">
+        <svg><use href="icons.svg#i-share"/></svg>
+      </button>
+      <button class="btn" id="qr-open" type="button" aria-label="Show QR code">
+        <svg><use href="icons.svg#i-qr"/></svg>
+      </button>
+    </div>
+
+    <section class="group">
+      <h2>Contact</h2>
+      <ul class="rows">
+        <li class="row">
+          <a href="tel:+447387997336">
+            <svg><use href="icons.svg#i-phone"/></svg>
+            <span class="label">Mobile</span>
+            <span class="value">+44 7387 997336</span>
+          </a>
+          <button class="copy" type="button" data-copy="+447387997336" aria-label="Copy phone number"><svg><use href="icons.svg#i-copy"/></svg></button>
+        </li>
+        <li class="row">
+          <a href="https://wa.me/447387997336" target="_blank" rel="noopener">
+            <svg><use href="icons.svg#i-chat"/></svg>
+            <span class="label">WhatsApp</span>
+            <span class="value">Send a message</span>
+          </a>
+        </li>
+        <li class="row">
+          <a href="mailto:kris@codewithakay.com">
+            <svg><use href="icons.svg#i-mail"/></svg>
+            <span class="label">Email</span>
+            <span class="value">kris@codewithakay.com</span>
+          </a>
+          <button class="copy" type="button" data-copy="kris@codewithakay.com" aria-label="Copy email address"><svg><use href="icons.svg#i-copy"/></svg></button>
+        </li>
+        <li class="row">
+          <a href="https://maps.google.com/?q=N10+London+England" target="_blank" rel="noopener">
+            <svg><use href="icons.svg#i-pin"/></svg>
+            <span class="label">Based in</span>
+            <span class="value">N10, London, England</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="group">
+      <h2>Online</h2>
+      <ul class="rows">
+        <li class="row">
+          <a href="https://codewithakay.dev" target="_blank" rel="noopener">
+            <svg><use href="icons.svg#i-globe"/></svg>
+            <span class="label">Website</span>
+            <span class="value">codewithakay.dev</span>
+          </a>
+          <button class="copy" type="button" data-copy="https://codewithakay.dev" aria-label="Copy website address"><svg><use href="icons.svg#i-copy"/></svg></button>
+        </li>
+        <li class="row">
+          <a href="https://www.linkedin.com/in/krisztian-j" target="_blank" rel="noopener">
+            <svg><use href="icons.svg#i-linkedin"/></svg>
+            <span class="label">LinkedIn</span>
+            <span class="value">linkedin.com/in/krisztian-j</span>
+          </a>
+          <button class="copy" type="button" data-copy="https://www.linkedin.com/in/krisztian-j" aria-label="Copy LinkedIn address"><svg><use href="icons.svg#i-copy"/></svg></button>
+        </li>
+        <li class="row">
+          <a href="https://github.com/ChrisWithakay42" target="_blank" rel="noopener">
+            <svg><use href="icons.svg#i-github"/></svg>
+            <span class="label">GitHub</span>
+            <span class="value">github.com/ChrisWithakay42</span>
+          </a>
+          <button class="copy" type="button" data-copy="https://github.com/ChrisWithakay42" aria-label="Copy GitHub address"><svg><use href="icons.svg#i-copy"/></svg></button>
+        </li>
+        <li class="row">
+          <a href="https://gitlab.com/codewithakay42" target="_blank" rel="noopener">
+            <svg><use href="icons.svg#i-gitlab"/></svg>
+            <span class="label">GitLab</span>
+            <span class="value">gitlab.com/codewithakay42</span>
+          </a>
+          <button class="copy" type="button" data-copy="https://gitlab.com/codewithakay42" aria-label="Copy GitLab address"><svg><use href="icons.svg#i-copy"/></svg></button>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <dialog id="qr" aria-labelledby="qr-title">
+    <h2 id="qr-title">Krisztian Jakovcevic</h2>
+    <p>Scan to open this card</p>
+    <img src="qr.png" width="370" height="370" alt="QR code linking to this card">
+    <button class="btn" type="button" data-close>Close</button>
+  </dialog>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="card.js"></script>
+</body>
+>>>>>>> Stashed changes
 </html>
